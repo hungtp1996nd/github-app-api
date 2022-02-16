@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 2rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  background: #f0f0f0;
+}
+
+.user-container {
+  max-width: 80rem;
+  margin: 1rem auto;
+  height: 100vh;
+}
+
+.title-search {
+  text-align: center;
+  position: relative;
+}
+
+.title-search img {
+  height: 120px;
+  width: auto;
+  margin: 1rem 0;
+}
+
+.user-search-box {
+  height: 3rem;
+  width: 100%;
+  padding: 0 1rem;
+  border-radius: .4rem;
+  font-size: 1.2rem;
+  position: relative;
+}
+
+input:focus {
+  outline: none;
+}
+

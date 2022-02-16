@@ -1,0 +1,56 @@
+td {
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+.user-card {
+    position: relative;
+    background-color: white;
+    padding-top: 1rem;
+    display: grid;
+    margin: 1rem 0;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    text-align: center;
+    border-radius: 1%;
+}
+
+.user-card_avatar {
+    position: relative;
+    margin: 0 auto;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background: #0099aa;
+    padding: 5px;
+    max-width: 100%;
+}
+
+.user-detail {
+    padding: 1rem 2.5rem;
+}
+
+.user-not-found {
+    text-align: center;
+    background-color: white;
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    border-radius: 2%;
+    width: 100%;
+}
+
+.user-not-found h2 {
+    font-size: 22px;
+    color: blue;
+}
+
+.user-not-found p {
+    color: gray;
+}
+
+.user-card div {
+    border: 1px dotted #ccc;
+    padding: 1rem 1rem;
+}
+
+

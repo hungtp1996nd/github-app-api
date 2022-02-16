@@ -1,0 +1,31 @@
+.repo-list {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 1.2rem;
+    padding: 5px 10%;
+    position: relative;
+    top: 10vh;
+}
+
+.repo-container {
+    text-align: center;
+}
+
+.back-btn {
+    text-decoration: none;
+    position: fixed;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+    background-color: #75acce6d;
+    top: 5%;
+    left: 10%;
+    border-radius: 5px;
+}
+
+.back-btn, .back-btn:visited, .back-btn:hover, .back-btn:active {
+    color: inherit;
+}
+
+.modal-dialog {
+    max-width: 1024px;
+}
